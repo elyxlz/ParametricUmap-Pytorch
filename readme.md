@@ -9,6 +9,7 @@ pip install umap-pytorch
 
 ```py
 from umap_pytorch import PUMAP
+import torch.nn.functional as F
 
 pumap = PUMAP(
         encoder=None,           # nn.Module, None for default
